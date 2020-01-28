@@ -6,7 +6,7 @@
 
 #include "CuadraticaLib.h"
 
-#define MINUNIT_EPSILON 1E-12
+#define MINUNIT_EPSILON 1E-1
 
 MU_TEST(test_prueba_c0) {
     float a = 1.0, b = -2.0, c = 0;

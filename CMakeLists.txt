@@ -6,3 +6,5 @@ set(CMAKE_C_STANDARD 99)
 
 include_directories(includes)
 add_executable(mainklk main.c)
+add_executable(CuadraticaMain clase3_minunit_cuadratica/CuadraticaMain.c clase3_minunit_cuadratica/CuadraticaLib.c clase3_minunit_cuadratica/CuadraticaLib.h)
+add_executable(CuadraticaMinunit clase3_minunit_cuadratica/CuadraticaMinunit.c clase3_minunit_cuadratica/CuadraticaLib.c clase3_minunit_cuadratica/CuadraticaLib.h)

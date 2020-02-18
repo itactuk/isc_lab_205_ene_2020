@@ -10,3 +10,7 @@ add_executable(CuadraticaMain clase3_minunit_cuadratica/CuadraticaMain.c clase3_
 add_executable(CuadraticaMinunit clase3_minunit_cuadratica/CuadraticaMinunit.c clase3_minunit_cuadratica/CuadraticaLib.c clase3_minunit_cuadratica/CuadraticaLib.h)
 add_executable(punt4Minunit template/punt4Minunit.c template/punt4Lib.c template/punt4Lib.h)
 add_executable(punto4Main template/punto4Main.c)
+add_executable(clase4Main clase4_minunit_arreglos/clase4Main.c clase4_minunit_arreglos/clase4Lib.c clase4_minunit_arreglos/clase4Lib.h)
+add_executable(clase4Minunit clase4_minunit_arreglos/clase4Minunit.c clase4_minunit_arreglos/clase4Lib.c clase4_minunit_arreglos/clase4Lib.h)
+add_executable(struct_minunit clase5_struct/struct_minunit.c clase5_struct/struct_lib.c clase5_struct/struct_lib.h)
+add_executable(struct_main clase5_struct/struct_main.c clase5_struct/struct_lib.c clase5_struct/struct_lib.h)

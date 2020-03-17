@@ -14,3 +14,5 @@ add_executable(clase4Main clase4_minunit_arreglos/clase4Main.c clase4_minunit_ar
 add_executable(clase4Minunit clase4_minunit_arreglos/clase4Minunit.c clase4_minunit_arreglos/clase4Lib.c clase4_minunit_arreglos/clase4Lib.h)
 add_executable(struct_minunit clase5_struct/struct_minunit.c clase5_struct/struct_lib.c clase5_struct/struct_lib.h)
 add_executable(struct_main clase5_struct/struct_main.c clase5_struct/struct_lib.c clase5_struct/struct_lib.h)
+add_executable(archivos_minunit clase7_archivos/archivos_minunit.c clase7_archivos/archivos_lib.c clase7_archivos/archivos_lib.h)
+add_executable(archivos_main clase7_archivos/archivos_main.c clase7_archivos/archivos_lib.c clase7_archivos/archivos_lib.h)
